@@ -1,0 +1,87 @@
+/* Counter CSS */
+.counter-container{
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 5px solid hsl(350, 82%, 60%);
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.counter-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: hsl(350, 82%, 60%) ;
+
+}
+.counter-display:hover{
+  filter: drop-shadow(1px 10px 15px hsl(350, 82%, 60%));
+}
+.counter-button{
+  width: 15 0px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: 8px;
+  padding: 5px,5px;
+  background-color: hsl(350, 82%, 60%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor:grabbing;
+  display: inline-block;
+} 
+.counter-button:hover{
+ border: 2.5px solid #fff;
+ box-shadow: 3px 3px 10px hsl(350, 82%, 60%);
+}
+.b1:hover>:not(:hover){
+  filter: blur(1px);
+  opacity: 0.2;
+}
+/* Colour Picker CSS */
+.colorpicker-container{
+  font-family:Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid hsl(0, 0%, 80%);
+  border-radius: 18px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 80%) ;
+}
+.h1tag{
+  margin: 50px;
+  font-size: 3rem;
+  color: hsl(0, 0%, 40%);
+  text-shadow: 5px 5px 5px hsl(0, 0%, 80%);
+}
+.color-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 3px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: all ease-in-out 0.25s;
+}
+.color-display p{
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+.lclass{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 40%);
+  text-shadow: 5px 5px 5px hsl(0, 0%, 80%);
+  margin-bottom: 15px;
+}
+
+.iclass{
+  width: 75px;
+  height: 50px;
+  border: 3px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
