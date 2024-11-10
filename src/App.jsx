@@ -1,14 +1,13 @@
 
 import ColorPicker from "./ColorPicker"
-
-
-
+import Counter from "./Counter"
 
 function App() {
 
   return (
     <>
-    <ColorPicker />
+    <ColorPicker /><br /><br />
+    <Counter/>
     </>
   )
 }
