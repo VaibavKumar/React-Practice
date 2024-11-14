@@ -85,3 +85,79 @@
   border-radius: 10px;
   margin-bottom: 15px;
 }
+
+/* CSS for Todo List */
+
+.todolist-container{
+  font-family: Arial,sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+  color: #fff;
+}
+button{
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s  ease;
+}
+.add-button{
+  background-color: hsl(125, 59%, 54%);
+  margin: 10px;
+  padding: 8px,12px;
+  margin-right: 5px;
+  font-size: 1.4rem;
+}
+.add-button:hover{
+  background-color: hsl(125, 59%, 44%);
+}
+.delete-button{
+  background-color: hsl(355, 90%, 56%);
+}
+.delete-button:hover{
+  background-color: hsl(355, 90%, 46%);
+}
+.move-button{
+  background-color: hsl(207, 97%, 64%);
+}
+.move-button:hover{
+  background-color: hsl(207, 97%, 54%);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  border: 2px solid hsla(0, 0%, 70%, 0.50);
+  padding: 10px;
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.50);
+}
+ol{
+  padding: 0px;
+}
+li{
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: hsl(0, 0%, 97%);
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.span-text{
+  flex: 1;
+}
+.delete-button, .move-button{
+  padding: 8px,12px;
+  margin-right: 5px;
+  font-size: 1.4rem;
+}
+body{
+  background-color: hsl(0, 0%, 0%);
+}
